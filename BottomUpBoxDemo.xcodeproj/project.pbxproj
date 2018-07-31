@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223D8C7F2110446300098744 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 223D8C7E2110446300098744 /* back.jpg */; };
+		223D8C812110496D00098744 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 223D8C802110496D00098744 /* close.png */; };
 		224495F6210817BB00368D7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 224495F5210817BB00368D7D /* AppDelegate.m */; };
 		224495F9210817BB00368D7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224495F8210817BB00368D7D /* ViewController.m */; };
 		224495FC210817BB00368D7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224495FA210817BB00368D7D /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		223D8C7E2110446300098744 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		223D8C802110496D00098744 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		224495F1210817BB00368D7D /* BottomUpBoxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottomUpBoxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		224495F4210817BB00368D7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		224495F5210817BB00368D7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 		224495F3210817BB00368D7D /* BottomUpBoxDemo */ = {
 			isa = PBXGroup;
 			children = (
+				223D8C7E2110446300098744 /* back.jpg */,
+				223D8C802110496D00098744 /* close.png */,
 				224495F4210817BB00368D7D /* AppDelegate.h */,
 				224495F5210817BB00368D7D /* AppDelegate.m */,
 				224496262108182D00368D7D /* BottomUpBoxView.h */,
@@ -247,8 +253,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				22449601210817BD00368D7D /* LaunchScreen.storyboard in Resources */,
+				223D8C812110496D00098744 /* close.png in Resources */,
 				224495FE210817BD00368D7D /* Assets.xcassets in Resources */,
 				224495FC210817BB00368D7D /* Main.storyboard in Resources */,
+				223D8C7F2110446300098744 /* back.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
